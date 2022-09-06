@@ -25,11 +25,13 @@ export default class Album extends React.Component {
         <Header />
         <p data-testid="artist-name">{colecao.artistName}</p>
         <p data-testid="album-name">{colecao.collectionName}</p>
-        {musicas.map(({ trackName, previewUrl }) => (
+        {musicas.map((elemento) => (
           <MusicCard
-            key={ trackName }
-            trackName={ trackName }
-            previewUrl={ previewUrl }
+            key={ elemento.trackName }
+            trackName={ elemento.trackName }
+            previewUrl={ elemento.previewUrl }
+            trackId={ elemento.trackId }
+            object={ elemento }
           />
         ))}
       </div>
