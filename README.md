@@ -20,6 +20,7 @@ Neste projeto foi desenvolvido uma aplicação que consome uma API de músicas. 
 
 <br/>
 Abaixo estão capturas de tela do projeto (vale lembrar que o objetivo principal do projeto era desenvolver a aplicação com foco na arquitetura do site utilizando React Router, e, por isso, não foi desenvolvido o CSS, portanto a aplicação está sem estilização".
+<br/>
 
 <br/>
 Página Inicial, feito o Login, carregando e passando para página de busca:
